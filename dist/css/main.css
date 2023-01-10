@@ -165,7 +165,10 @@ main {
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
-    border-radius: 47%;
+    width: 300px;
+    height: 300px;
+    background: url("../img/portrait6.jpg");
+    border-radius: 50%;
     border: solid 3px #eece1a; }
   .about-info .bio {
     grid-area: bio;
@@ -244,7 +247,7 @@ main {
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 501px) and (max-width: 768px) {
   main {
     align-items: center;
     text-align: center; }
@@ -280,4 +283,4 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: repeat(1fr); } }
+    grid-template-columns: 1fr; } }
