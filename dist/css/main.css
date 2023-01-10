@@ -275,6 +275,8 @@ main {
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url("../img/portrait2.jpg");
+      background-size: cover;
+      background-position-y: 45%;
       width: 150px;
       height: 150px; }
   .about-info {
@@ -308,6 +310,8 @@ main {
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url("../img/portrait2.jpg");
+      background-size: cover;
+      background-position-y: 45%;
       width: 150px;
       height: 150px; }
   .about-info {
